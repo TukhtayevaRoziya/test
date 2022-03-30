@@ -1,0 +1,21 @@
+.body {
+  cursor: pointer;
+}
+
+.body .body__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+
+  color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+}
+
+@media (min-width:0) and (max-width:500.9px) {
+  .body .body__text {
+    font-size: 8px;
+    line-height: 15px;
+  }
+}

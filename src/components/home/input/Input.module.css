@@ -1,0 +1,41 @@
+.body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.body__inp {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  height: 48px;
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.body__inp input {
+  outline: none;
+  height: 100%;
+  width: 80%;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 24px;
+  border: none;
+  background-color: transparent;
+  padding: 0 20px;
+}
+
+.body__inp input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8c8c8c;
+}
+.body__inp img {
+  padding: 14px;
+}

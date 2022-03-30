@@ -1,0 +1,44 @@
+.Chips_body__CkUOy .active {
+  background: #eb6012;
+  color: #ffffff;
+}
+
+.Chips_body__CkUOy .active:hover {
+  background: #eb6012;
+  color: #ffffff;
+}
+
+.Chips_body__CkUOy .active:active {
+  background: #cb540f;
+  color: #ffffff;
+}
+
+.body{
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media (min-width:0) and (max-width:500.9px) {
+  .body{
+    width: 95%;
+  }
+  .swiper-pointer-events{
+    height: 20px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1100.9px) {
+  .body{
+    width: 90%;
+  }
+
+  .swiper-pointer-events{
+    height: 40px;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1325.9px) {
+  .swiper-pointer-events{
+    height: 50px;
+  }
+}

@@ -1,0 +1,31 @@
+.body {
+  display: flex;
+  justify-content: end;
+  padding-top: 1rem;
+}
+
+.body button {
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 4px;
+  margin-left: 1rem;
+  outline: none;
+  border: none;
+  box-shadow: 0px 2px 12px rgba(31, 31, 31, 0.15);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.body .body__btn_white {
+  color: #262626;
+  background: #ffffff;
+}
+
+.body .body__btn_blue {
+  background: #0468ff;
+  color: #fff;
+}
