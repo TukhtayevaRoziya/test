@@ -25,7 +25,25 @@
   background: #ffffff;
 }
 
+.body .body__btn_white:hover {
+  box-shadow: 0px 10px 22px rgba(31, 31, 31, 0.27);
+}
+
+.body .body__btn_white:active,
+.body .body__btn_white:focus {
+  box-shadow: 0px 1px 2px rgba(31, 31, 31, 0.35);
+}
+
 .body .body__btn_blue {
   background: #0468ff;
   color: #fff;
+}
+
+.body .body__btn_blue:hover{
+  background: #0052CC;
+}
+
+.body .body__btn_blue:active,
+.body .body__btn_blue:focus{
+  background: #0043A7;
 }

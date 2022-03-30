@@ -48,6 +48,12 @@ export const Home = () => {
               <Input placeholder="Поиск по стране, региону, городу, названию маршрута" />
             }
           />
+          <Route
+            path='*'
+            element={
+              <Input placeholder="Поиск по стране, региону, городу, название пляжа" />
+            }
+          />
         </Routes>
         <Button />
       </div>
